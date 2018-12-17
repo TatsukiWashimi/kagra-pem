@@ -1,13 +1,6 @@
-# pem
-
+# kagra-pem
+[KAGRA PEM Wiki]（http://gwwiki.icrr.u-tokyo.ac.jp/JGWwiki/KAGRA/Subgroups/PEM）
 
 ## リポジトリについて
-
-## 進めているプロジェクト
-[Project一覧](https://github.com/gw-pem/pem-injection/projects)
-
-## インストール
-
-## 使い方
-
-
+PEMのタスク管理用リポジトリ
+PEMのメインタスクは、環境センサーのインストールとメンテナンス
