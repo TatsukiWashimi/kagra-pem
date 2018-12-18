@@ -1,5 +1,5 @@
 ---
-name: 計画用Issue 
+name: 計画用Issue
 about: どんどん進捗をだしましょう
 title: ''
 labels: ''
@@ -20,4 +20,3 @@ assignees: ''
 
 ### レビュー用まとめ
 （ToDoが終わっているかどうか、図やWikiのリンク等で簡潔に示す）
-
