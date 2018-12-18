@@ -1,6 +1,6 @@
 ---
-name: Plan 
-about: Create a plan to progress
+name: 計画用Issue 
+about: どんどん進捗をだしましょう
 title: ''
 labels: ''
 assignees: ''
@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 ### 目的
-（なぜそれをやるのか、）
+（なぜそれをやりたいのか、）
 
 ### ToDo
 (どうすればIssueをCloseできるか)
