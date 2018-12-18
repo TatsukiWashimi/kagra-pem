@@ -1,6 +1,6 @@
 ---
-name: Bug report
-about: Create a report to help us improve
+name: バグ、問題Issue
+about: 問題をみつけてPEMを改善しましょう
 title: ''
 labels: ''
 assignees: ''
