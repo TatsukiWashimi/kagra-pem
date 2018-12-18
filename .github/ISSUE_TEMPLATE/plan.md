@@ -1,3 +1,12 @@
+---
+name: Plan 
+about: Create a plan to progress
+title: ''
+labels: ''
+assignees: ''
+
+---
+
 ### 目的
 （なぜそれをやるのか、）
 
