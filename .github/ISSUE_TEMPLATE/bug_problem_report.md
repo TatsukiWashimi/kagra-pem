@@ -1,8 +1,8 @@
 ---
 name: バグ、問題Issue
 about: 問題をみつけてPEMを改善しましょう
-title: None
-projects: gw-pem/kagra-pem/5
+title: 'No Title'
+projects: 'gw-pem/kagra-pem/5'
 labels: bug
 assignees: ''
 
