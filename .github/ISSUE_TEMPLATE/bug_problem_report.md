@@ -4,7 +4,7 @@ about: 問題をみつけてPEMを改善しましょう
 title: ''
 labels: ''
 assignees: ''
-projects:'5'
+projects: '5'
 
 ---
 
