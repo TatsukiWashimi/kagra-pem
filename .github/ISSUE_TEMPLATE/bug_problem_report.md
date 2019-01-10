@@ -2,9 +2,9 @@
 name: バグ、問題Issue
 about: 問題をみつけてPEMを改善しましょう
 title: ''
-labels: ''
+labels: bug
 assignees: ''
-projects: '5'
+projects: 5
 
 ---
 
