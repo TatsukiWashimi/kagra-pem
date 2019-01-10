@@ -4,7 +4,7 @@ about: 問題をみつけてPEMを改善しましょう
 title: ''
 labels: bug
 assignees: ''
-projects: gw-pem/5
+projects: gw-pem/kagra-pem/5
 
 ---
 
