@@ -53,7 +53,7 @@ def read_definition(fname='definition.ini'):
     return set(sensors),set(areas),set(locations),set(dofs)
 
 
-def read_chname(fname='test_chname.txt',loc_option=['CHAMBER','BOOTH','TABLE','RACK']):    
+def read_chname(fname='test_chname.txt',loc_option=['CHAMBER','BOOTH','TABLE','RACK','PERI']):    
     ''' Read channel name from list.
 
     Parameters
@@ -80,7 +80,7 @@ def read_chname(fname='test_chname.txt',loc_option=['CHAMBER','BOOTH','TABLE','R
     return set(sensors),set(areas),set(locations),set(dofs)
 
 
-def search_chname(words,item=0,fname='test_chname.txt',loc_option=['CHAMBER','BOOTH','TABLE','RACK']):
+def search_chname(words,item=0,fname='test_chname.txt',loc_option=['CHAMBER','BOOTH','TABLE','RACK','PERI']):
     text = pd.read_csv(fname,header=None,dtype=str)
     hoge = '|'.join(['{0}_[^_]+'.format(loc) for loc in loc_option])
     pattern = 'K1:PEM-([^_]+)_([^_]+)_({hoge}|[^_]+)_([^_]+).+'.format(hoge=hoge)
@@ -100,7 +100,7 @@ def search_chname(words,item=0,fname='test_chname.txt',loc_option=['CHAMBER','BO
 
     
 def main():
-    fname_chname = 'test_chname.txt'
+    fname_chname = 'test_chname3.txt'
     sensors1,areas1,locations1,dofs1 = read_definition()
     sensors2,areas2,locations2,dofs2 = read_chname(fname_chname)
 
@@ -111,16 +111,16 @@ def main():
     bad_dofs = dofs2-dofs1
     if bad_sensor:
         print 'Bad "SENSOR" name!\n ',list(bad_sensor)
-        search_chname(bad_sensor,item=0,fname=fname_chname)                    
+        #search_chname(bad_sensor,item=0,fname=fname_chname)                    
     if bad_area:
         print 'Bad "AREA" name!\n ',list(bad_area)
-        search_chname(bad_area,item=1,fname=fname_chname)                    
+        #search_chname(bad_area,item=1,fname=fname_chname)                    
     if bad_location:
         print 'Bad "LOCATION" name!\n ',list(bad_location)
-        search_chname(bad_location,item=2,fname=fname_chname)                    
+        #search_chname(bad_location,item=2,fname=fname_chname)                    
     if bad_dofs:
         print 'Bad "DOF" name!\n ',list(bad_dofs)
-        search_chname(bad_dofs,item=3,fname=fname_chname)                    
+        #search_chname(bad_dofs,item=3,fname=fname_chname)                    
 
 
 if __name__=='__main__':
