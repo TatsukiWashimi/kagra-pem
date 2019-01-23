@@ -1,8 +1,8 @@
 ---
 name: バグ、問題Issue
 about: 問題をみつけてPEMを改善しましょう
-title: ''
-labels: ''
+title: 'No Title'
+labels: bug
 assignees: ''
 
 ---
